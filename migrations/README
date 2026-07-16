@@ -1,0 +1,1 @@
+Run `flask --app wsgi db init`, `flask --app wsgi db migrate -m "initial"`, then `flask --app wsgi db upgrade` to create versioned Alembic migrations.
